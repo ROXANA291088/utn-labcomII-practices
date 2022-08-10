@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #aaaaaa;
+        }
+
+        div.container {
+            overflow: auto;
+        }
+
+        header {
+            background-color: #d87d15; font-family: Arial, Helvetica, sans-serif;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+
+        nav ul {
+            padding-left: 0px;
+        }
+
+        nav li {
+            list-style: none;
+        }
+
+        nav li a {
+            background-color: #e5e5e5;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+            font-weight: 700;
+        }
+
+        main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+        }
+
+        .right {
+            background-color: #e5e5e5;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #dbd0d0;
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
+        }
+       
+
+        /* For mobile phones: */
+        @media only screen and (max-width: 620px) {
+
+            nav,
+            main,
+            .right {
+                width: 100%;
+            }
+        }
+
+        p{color: black;font-style: italic;font-family: 'Times New Roman', Times, serif;}
+
+
+    </style>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1> Santa Fe Noticias </h1>
+        
+
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <section>
+                <h1> Hubo acuerdo en el Puerto </h1>
+                <p>
+                    La empresa TPR aceptó el pedido del gremio, 
+                    que a cambio levanta el paro y los bloqueos. 
+                    Se pactó en una audiencia en el Ministerio de Trabajo
+                </p>
+                <hr>
+
+                <h2>Noticia 2 </h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                    diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat.</p>
+
+                <h3>Noticia 2 </h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                    diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat.</p>
+            </section>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p> Gimena Sotelo 
+                Roxana Pasini
+                Ayelen Romero
+            </p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p> Comision 4- Turno noche - Tecnicatura Universitaria  en Programación </p>
+    </footer>
+
+
+
+</body>
+
+</html>
